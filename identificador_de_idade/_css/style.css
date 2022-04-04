@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@300&family=Didact+Gothic&family=Dosis:wght@500&family=Play&display=swap');
+
+body{
+    background-color: #B0C4DE;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+header{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px #cbd7e6;
+}
+#form{
+    background-color: #88aad4;
+    margin: auto;
+    width: 750px;
+    height: 570px;
+    padding-top: 30px;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 8px #9fbbdd;
+}
+#nascimento{
+    border-radius: 5px;
+    border-color: #B0C4DE;
+    padding: 8px;
+    width: 60px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 2px;
+    color:#88aad4;
+    font-family: 'Didact Gothic', sans-serif;;
+}
+button{
+    padding: 13px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #B0C4DE;
+    color: white;
+    border: 0;
+    box-shadow: 2px 2px 2px #bbcce6;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 300ms ease;
+}
+#resultado{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    background-color: #B0C4DE;
+}
